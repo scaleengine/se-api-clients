@@ -11,6 +11,3 @@ Clients that other people have written.
 
 ### Ruby
 https://github.com/ConferenceCloud/ruby-scaleengine
-
-### PHP
-https://github.com/flocasts/scaleengine-api-client
