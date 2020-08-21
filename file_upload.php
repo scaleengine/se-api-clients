@@ -52,7 +52,6 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: multipart/form-data'));
 
 curl_setopt($ch, CURLOPT_USERPWD, "{$cdn_id}:{$api_private}");
-curl_setopt($ch, CURLOPT_HTTPHEADER, array("X-Real-IP: {$_SERVER['REMOTE_ADDR']}"));
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_TIMEOUT, $timeout);
